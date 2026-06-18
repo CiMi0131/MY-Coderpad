@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>MY_Coderpad</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>coderPad.ico</ApplicationIcon>
+    <Version>26.0</Version>
+    <Company>CiMi131's Lab</Company>
+    <PackageIcon>coderPad.png</PackageIcon>
+    <Title>MY Coderpad</Title>
+    <Authors>CiMi131's Lab</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="coderPad.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\coderPad.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
